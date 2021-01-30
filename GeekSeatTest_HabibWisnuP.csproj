@@ -78,6 +78,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="GeekSeatTest_HabibWisnuP_TemporaryKey.pfx" />
+    <None Include="Release\Application Files\GeekSeatTest_HabibWisnuP_1_0_0_0\GeekSeatTest_HabibWisnuP.application" />
+    <None Include="Release\Application Files\GeekSeatTest_HabibWisnuP_1_0_0_0\GeekSeatTest_HabibWisnuP.exe.config.deploy" />
+    <None Include="Release\Application Files\GeekSeatTest_HabibWisnuP_1_0_0_0\GeekSeatTest_HabibWisnuP.exe.deploy" />
+    <None Include="Release\Application Files\GeekSeatTest_HabibWisnuP_1_0_0_0\GeekSeatTest_HabibWisnuP.exe.manifest" />
+    <None Include="Release\GeekSeatTest_HabibWisnuP.application" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6">
@@ -90,6 +95,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Release\setup.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
